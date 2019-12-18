@@ -1,0 +1,395 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.fonesize_title {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0px;
+    line-height: 60px;
+}
+
+.fonesize_l {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.fonesize_m {
+    font-size: 28px;
+}
+.fonesize_text {
+    font-size: 24px;
+}
+
+.float_right {
+    float : right;
+}
+
+.float_left {
+    float : left;
+}
+
+.float_clear {
+    float: both;
+}
+
+.text_color_black {
+    color: black;
+}
+
+.text_color_white {
+    color: white;
+}
+
+.text_justify_auto{
+    text-align: justify;
+    text-justify: auto;
+}
+
+
+
+.spacing_xl {
+    width : 100%;
+    height : 80px;
+    background-color: burlywood;
+}
+
+.spacing_l {
+    width : 100%;
+    height : 34px;
+    background-color:orange;
+}
+
+.spacing_m {
+    width : 100%;
+    height : 28px;
+    background-color: red;
+}
+
+.spacing_s {
+    width : 100%;
+    height : 24px;
+    background-color: purple;
+}
+
+.spacing_xs {
+    width : 100%;
+    height : 12px;
+    background-color: blue;
+}
+a {
+    text-decoration: none;
+
+}
+
+a:link  {
+    /* color: green; */
+    text-decoration: none;
+  }
+  
+ 
+  a:visited  {
+    /* color: blue; */
+    text-decoration: none
+  }
+  
+  
+  a:hover  {
+    /* color: red; */
+    text-decoration: underline;
+  }
+  
+  
+  a:active  {
+    /* color: black; */
+    text-decoration: underline;
+  }
+
+.boxAll {
+    
+  
+    height:2000px;
+    background-color: white;
+   
+    /* display: flex; */
+}
+
+.logo {
+    height: 60px;
+    text-align: center;
+    
+}
+
+.icon {
+    height: 60px;
+    text-align: center;
+}
+
+.icon-font{
+    font-size: 55px;
+    color: black;
+    display:none;
+}
+
+.icon1-font{
+    font-size: 36px;
+    color:rgba(0,0,0,0);
+    display:none;
+}
+
+.nav_auto {
+    width: 100vw;
+    max-width: 1920px;
+    height: 80px;
+    background-color:#9D9C9C;
+    position: fixed;
+    top:0px; 
+    z-index: 9999;
+}
+
+.nav {
+    width: 1140px;
+    height: 80px;
+    background-color:#9D9C9C;
+    padding: 10px; 
+    margin : auto; 
+}
+
+.navbar_group { 
+    width: 960px;
+    /* background-color: blue; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar {
+    /* width: 160px; */
+    height : 60px;
+    text-align: center
+    /* background-color:white; */
+}
+
+.swiper-container {
+    width: 100%;
+    max-width: 1920px;
+    height: 1000px;
+}
+
+.origin_box {
+    width : 980px;
+    margin : auto;
+    background-color: greenyellow;
+}
+
+.title_text {
+    text-align: center;
+}
+
+.Intro_text {
+    text-align: center;
+}
+
+.application_box {
+    width : 980px;
+    margin : auto;
+    background-color: yellow;
+}
+
+.application_box_all {
+    width : 100%;
+    background-color: red;
+    display: flex;
+}
+.application_box_all_all {
+    width : auto;
+    height : 100%;
+}
+
+.advantage_box {
+    width : 980px;
+    margin : auto;
+    background-color: blue;
+}
+
+.advantage_box_all {
+    width : 100%;
+    background-color: brown;
+   
+}
+.advantage_box_all_all {
+    width : 100%;
+    height : auto;
+    display: flex;
+}
+
+.aterial_box {
+    width : 980px;
+    margin : auto;
+    background-color: blue;
+}
+
+.aterial_box_top {
+    width : 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.aterial_box_bom {
+    width : 100%;
+    background-color: brown;
+    display: flex;
+    
+   
+}
+.aterial_box_top_all {
+    width :255px;
+    height : 100%;
+}
+
+.external_box {
+    width : 980px;
+    margin : auto;
+    background-color: #615E5C;
+}
+
+.external_icon {
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    display : flex;
+}
+
+.external_logo {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+@media (max-width: 375px) {
+    .boxAll {
+        width: 100%;
+        height: 667px;
+        display: flex;
+        flex-wrap: wrap ;
+        min-width: 375px;
+        
+    }
+
+    .nav {
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+        background-color: blue;
+        margin-bottom: 0;
+        margin: auto;
+
+    }
+
+    .navbar{
+        /* width:50px; */
+        /* height: 80px; */
+        /* background-color: tomato; */
+        /* border: black 1px solid; */
+        order: -1;
+        position: relative;
+    }
+
+    .icon-font{
+        font-size: 80px;
+        color: tomato;
+        display:block;
+    }
+
+    /* .navbar1{
+        order: 1;
+    } */
+
+    .icon1-font{
+        font-size: 80px;
+        color:rgba(0,0,0,0);
+        display:block;
+    }
+
+    
+
+    .navbar:hover ul {
+        /* display: block; */
+        /* margin-top: 80px; */
+        left: -10px;
+        flex-wrap: wrap;
+       
+    }
+
+    .navbar ul {
+        /* display: none; */
+        width: 100vw;
+        position: absolute;
+        top:80px;
+        left:-1000px;
+        transition: 1s;
+        flex-wrap: wrap;
+        
+    }
+    
+    .navbar ul li {
+        width: 100vw;
+        padding: 10px;
+        margin-left: 0px;
+    }
+
+    .navbar ul li:hover{
+        background-color: slateblue;
+    }           
+
+    
+    /* .main-picture {
+        flex-wrap: wrap;
+    } */
+        
+    .picture-group {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        
+    }
+
+    .picture1 {
+        width: 100%;
+        height: 33%;
+        background-image: url("../img-RWD/horse-01-1.jpg");
+        
+    }
+
+    .picture2 {
+        width: 100%;
+        height: 33%;
+        
+    }
+
+    .picture3 {
+        width: 100%;
+        height: 33%;
+        
+    }
+
+
+}
+    
+

@@ -1,0 +1,371 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    /* position: relative; */
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+        max-width: 100%;
+        height: auto;
+  }
+
+ 
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+    
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+.fonesize_title {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0px;
+    line-height: 60px;
+}
+
+.fonesize_32 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.fonesize_28 {
+    font-size: 28px;
+}
+.fonesize_text {
+    font-size: 24px;
+}
+
+.float_right {
+    float : right;
+}
+
+.float_left {
+    float : left;
+}
+
+.float_clear {
+    float: both;
+}
+
+.text_color_black {
+    color: black;
+}
+
+.text_color_white {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:link  {
+    /* color: green; */
+    text-decoration: none;
+  }
+  
+ 
+  a:visited  {
+    /* color: blue; */
+    text-decoration: none
+  }
+  
+  
+  a:hover  {
+    /* color: red; */
+    text-decoration: underline;
+  }
+  
+  
+  a:active  {
+    /* color: black; */
+    text-decoration: underline;
+  }
+
+.boxAll {
+    width : 100%;
+    height: 100%;
+    
+    position: relative;
+    
+    background-color: white;
+   
+   
+    /* display: flex; */
+}
+
+
+.nav_auto {
+    width: 100vw;
+    max-width: 1920px;
+    height: 80px;
+    background-color:#9D9C9C;
+    position: fixed;
+    top:0px; 
+    z-index: 99999;
+    
+}
+
+.nav {
+    width: 1140px;
+    height: 80px;
+    background-color:#9D9C9C;
+    padding: 10px; 
+    margin : auto; 
+    
+    
+}
+
+.navbar_group { 
+    width: 960px;
+    /* background-color: blue; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.navbar {
+    /* width: 160px; */
+    height : 60px;
+    text-align: center;
+
+    /* background-color:white; */
+
+   
+}
+
+
+
+.logo {
+    height: 60px;
+    text-align: center;
+    
+}
+
+.icon {
+    height: 60px;
+    text-align: center;
+
+}
+
+.icon1-font{
+    font-size: 36px;
+    color:rgba(0,0,0,0);
+    display:none;
+}
+
+
+.n-picture {
+    width: calc( 100% - 300px);
+    height: 100%;
+    background-color: gainsboro;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture-group {
+    width: 900px;
+    height: 500px;
+    /* background-color: darkgreen; */
+    display: flex;
+    justify-content: space-between;
+}
+.picture1 {
+    width: 33%;
+    height: 100%;
+    background-image: url("../img-RWD/horse-01-3.jpg");
+    background-position: center;
+    background-size: cover;
+    /* border: black 1px solid; */
+    opacity: 1;
+   
+}
+
+.picture1:hover {
+    opacity: 0.8;
+}
+
+.picture2 {
+    width: 33%;
+    height: 100%;
+    background-image: url("../img-RWD/horse-02-1.jpg");
+    background-position: center;
+    background-size: cover;
+    /* border: black 1px solid;    */
+}
+
+.picture2:hover {
+    opacity: 0.7;
+}
+
+.picture3 {
+    width: 33%;
+    height: 100%;
+    background-image: url("../img-RWD/horse-03-1.jpg");
+    background-position: center;
+    background-size: cover;
+    /* border: black 1px solid;    */
+}
+
+.picture3:hover {
+    opacity: 0.6;
+}
+
+.icon-font{
+    font-size: 55px;
+    color: black;
+    display:none;
+}
+
+@media (max-width: 375px) {
+    .boxAll {
+        width: 100%;
+        height: 667px;
+        display: flex;
+        flex-wrap: wrap ;
+        min-width: 375px;
+        
+    }
+
+    .nav {
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+        background-color: blue;
+        margin-bottom: 0;
+        margin: auto;
+
+    }
+
+    .navbar{
+        /* width:50px; */
+        /* height: 80px; */
+        /* background-color: tomato; */
+        /* border: black 1px solid; */
+        order: -1;
+        position: relative;
+    }
+
+    .icon-font{
+        font-size: 80px;
+        color: tomato;
+        display:block;
+    }
+
+    /* .navbar1{
+        order: 1;
+    } */
+
+    .icon1-font{
+        font-size: 80px;
+        color:rgba(0,0,0,0);
+        display:block;
+    }
+
+    
+
+    .navbar:hover ul {
+        /* display: block; */
+        /* margin-top: 80px; */
+        left: -10px;
+        flex-wrap: wrap;
+       
+    }
+
+    .navbar ul {
+        /* display: none; */
+        width: 100vw;
+        position: absolute;
+        top:80px;
+        left:-1000px;
+        transition: 1s;
+        flex-wrap: wrap;
+        
+    }
+    
+    .navbar ul li {
+        width: 100vw;
+        padding: 10px;
+        margin-left: 0px;
+    }
+
+    .navbar ul li:hover{
+        background-color: slateblue;
+    }           
+
+    
+    /* .main-picture {
+        flex-wrap: wrap;
+    } */
+        
+    .picture-group {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        
+    }
+
+    .picture1 {
+        width: 100%;
+        height: 33%;
+        background-image: url("../img-RWD/horse-01-1.jpg");
+        
+    }
+
+    .picture2 {
+        width: 100%;
+        height: 33%;
+        
+    }
+
+    .picture3 {
+        width: 100%;
+        height: 33%;
+        
+    }
+
+
+}
+
+
+
+    
+

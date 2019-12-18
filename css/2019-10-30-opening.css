@@ -1,0 +1,91 @@
+
+.box {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+
+}.box-l {
+    animation-name: moveRight;
+    animation-duration: 1.5s;
+    
+}
+
+.box-r {
+    animation-name: moveLeft;
+    animation-duration: 1.5s;
+    
+}
+
+.opening{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width:100vw;
+    /* background-color: white; */
+    background-image: url("../img/hours.jpg");
+    background-position: center;
+    background-size: contain;
+
+    animation-name: opening;
+    animation-delay: 1.5s;
+    animation-duration: 5s;
+    overflow: hidden;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes moveRight {
+    0% {transform: translateX(-100%);
+        
+    }
+
+    10% {transform: translateX(-100%);
+        
+    }
+
+    100%{
+        transform: translateX(0%);
+        
+    }  
+}
+
+@keyframes moveLeft {
+    0% {
+        transform: translateX(100%);
+        
+    }
+
+    10% {
+        transform: translateX(100%);
+        
+    }
+
+
+    100%{
+        transform: translateX(0%);
+        
+    }  
+}
+
+
+
+@keyframes opening{
+    0% {
+        opacity: 1;
+    }
+
+    50%{        
+        opacity: 0.5;
+
+    }
+
+    100%{
+        opacity: 0;
+        z-index: -99999;
+    }
+    
+    
+   
+    
+}
