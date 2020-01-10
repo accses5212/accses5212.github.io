@@ -224,7 +224,7 @@ a:active  {
 
 
 .origin_img {
-    background-image: url("../02-素材/起源-1-10-底圖.jpg") ;
+    background-image: url("../img/起源-1-10-底圖.jpg") ;
     background-position: center;
     position: absolute;
     top:1022px;
@@ -273,7 +273,7 @@ a:active  {
 }
 
 .application_img {
-    background-image: url("../02-素材/應用-1-10-底圖.jpg") ;
+    background-image: url("../img/應用-1-10-底圖.jpg") ;
     background-position: center;
     position: absolute;
     top:1990px;
@@ -354,7 +354,7 @@ a:active  {
 }
 
 .advantage_img {
-    background-image: url("../02-素材/優點-1-10-底圖.jpg") ;
+    background-image: url("../img/優點-1-10-底圖.jpg") ;
     background-position: center;
     position: absolute;
     top:2924px;
@@ -443,7 +443,7 @@ a:active  {
 }
 
 .aterial_img {
-    background-image: url("../02-素材/材料工具-1-10-底圖.jpg") ;
+    background-image: url("../img/材料工具-1-10-底圖.jpg") ;
     background-position: center;
     position: absolute;
     top:3950px;
@@ -503,6 +503,12 @@ a:active  {
     justify-content: space-between;
     margin-top: 34px;
     position: relative;
+}
+
+.aterial_box_btn{
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 
 .aterial_box_bom_l {
