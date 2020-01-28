@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/2019-12-21-個人專題-v1.css">
-    <title>手工皂2019-12-21-v1</title>
+    <link rel="stylesheet" href="../css/2020-01-28-個人專題.css">
+    <title>手工皂2020-01-28</title>
 </head>
 
 <body>
@@ -43,26 +43,29 @@
             </div>
         </div>
         <!-- banner -->
+        
 
-        <div id="banner" class="swiper-container">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="../img/banner-3-10.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="../img/banner-2-10.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="../img/banner-1-10.jpg" alt=""></div>
-                ...
+            <div  id="banner" class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="../img/banner-3-10.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="../img/banner-2-10.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="../img/banner-1-10.jpg" alt=""></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
 
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
-        </div>
+            
+       
 
         <!-- origin -->
         <div id="origin_posi">
@@ -369,7 +372,7 @@
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
     <script>
-        var mySwiper = new Swiper('.swiper-container', {
+        var mySwiper_pc = new Swiper('.swiper-container', {
             // Optional parameters
             direction: 'horizontal',
             loop: true,
@@ -397,6 +400,8 @@
         })
 
     </script>
+
+    
 
 
 
